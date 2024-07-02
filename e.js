@@ -195,18 +195,17 @@ let fim = 20;
 
 console.log(`Números primos no intervalo de ${inicio} a ${fim}:`);
 for (let num = inicio; num <= fim; num++) 
-{
-    let primo = true;
+
+    let (primo = true);
     for (let i = 2; i < num; i++) 
-        {
+{
         if (num % i === 0) 
         {
             primo = false;
             break;
         }
-    }
+}
     if (primo && num > 1) 
-    {
+{
         console.log(num);
-    }
 }
